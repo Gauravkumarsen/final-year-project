@@ -1,0 +1,165 @@
+.bookings-container {
+
+    padding: 80px; 
+    background-color: #eef;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1200px; 
+  }
+  
+  .bookings-heading {
+    font-size: 3em;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .booking-form {
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px; 
+    margin: 0 auto 50px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .booking-button {
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .booking-button:hover {
+    background-color: #ff6347;
+  }
+  
+  .transport-booking {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto 50px;
+  }
+  
+  .transport-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .tab-button {
+    background-color: #eee;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 10px;
+  }
+  
+  .tab-button:hover, .tab-button.active {
+    background-color: #ddd;
+  }
+  
+  .transport-content {
+    display: none;
+  }
+  
+  .transport-content.active {
+    display: block;
+  }
+  
+  .featured-destinations {
+    margin-top: 50px;
+    .featured-heading{
+      color: #d3a911;
+    }
+  }
+  
+  .featured-heading {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .destinations-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .destination-card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s;
+  }
+  
+  .destination-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .destination-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .destination-title {
+    font-size: 1.5em;
+    margin: 15px 0;
+    color: #333;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .bookings-container {
+      padding: 50px; 
+      padding-top: 100px;
+    }
+  
+    .booking-form {
+      padding: 40px; 
+    }
+  
+    .transport-booking {
+      padding: 30px; 
+    }
+  
+    .featured-heading {
+      font-size: 2em;
+    }
+  
+    .destination-card {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  

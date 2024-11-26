@@ -1,0 +1,65 @@
+:root{
+    --PrimaryColor: hsl(199,100%,33%);
+    --SecondaryColor:  hsl(187,85%,43%);
+    --gradientColor: linear-gradient(to right, hsl(187,85%,43%), hsl(199,100%,33%));
+    --whiteColor:hsl(0,0%,100%);
+    --blackColor: hsl(201,33%,16%);
+    --textColor: hsl(240,4%,36%);
+    --whiteColorDeam: hsl(0,0%,93%);
+    --greyText : rgb(190,190,190);
+    --inputColor: rgb(239,239,239);
+    --bodyColor: rgb(240,240,246);
+    --cardBG: rgb(225,225,235);
+}
+
+.footer{
+     padding: 4rem 6rem;
+     background: var(--SecondaryColor);
+     color:var(--whiteColorDeam);
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    p{
+        font-family:cursive;
+    }
+}
+
+.bottom{
+    padding-top: 2rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bottom div{
+    display: flex;
+    flex-direction: column;
+}
+.bottom h4{
+    font-size: 1.3rem;
+    padding: 1rem 0 0.8rem 0;
+}
+
+.bottom a{
+    text-decoration: none;
+    color:var(--whiteColorDeam);
+    padding-bottom: .4rem;
+    font-size: 1.1rem;
+}
+
+@media  screen and (max-width:768px){
+    .footer{
+        padding: 4rem 2rem;
+    }
+
+    .bottom div{
+        width:50%;
+    }
+}
