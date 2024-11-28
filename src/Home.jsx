@@ -14,6 +14,7 @@ import Middle from './Middle';
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import { Link } from "react-router-dom";
 
 const Home =()=>{
     
@@ -34,43 +35,21 @@ const Home =()=>{
                  Our Packages
                 </span>
                 <h1 data-aos="fade-up" className="homeTitle">
-                    Search your Holiday
+                    Search your Hotels
                 </h1>
             </div>
         
-            <div  data-aos="fade-up" className="cardDiv grid">
-                <div className="destinationInput">
-                    <lable htmlFor = "city"> Search you destination:</lable>
-                    <div className="input flex">
-                        <input type="text" placeholder="Enter name here.... "/>
-                    <SlLocationPin className="icon"/>
-                    </div>
-                </div>
+            <div className="ml-link-container">
+  <Link
+    to="http://3.108.250.202:8501/"
+    className="ml-link"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    🏨 Search Your Hotels 
+  </Link>
+</div>
 
-                <div className="dateInput">
-                    <lable htmlFor = "date"> Select your date:</lable>
-                    <div className="input flex">
-                        <input type="date"/>
-                    <MdDateRange className="icon"/>
-                    </div>
-                </div>
-
-                <div className="priceInput">
-                <div className="label_total flex">
-                    <lable htmlFor="price">Max price</lable>
-                    <h3 className="total"> 50k Rupees</h3>
-                </div>
-                <div className="input flex">
-                    <input type="range" max="50000" min="10000"></input>
-                    <FaRupeeSign className="icon"/>
-                </div>
-                </div>
-
-                <div className="searchOptions flex"> 
-                      <FaFilter className="icon"/>
-                      <span>MORE FILTERS</span>
-                </div>
-            </div>
         
 
         <div data-aos="fade-up" className="homeFooterIcon flex">

@@ -21,7 +21,7 @@ const Bookings = () => {
       <div className="booking-form">
         <div className="form-group">
           <label htmlFor="destination">Destination</label>
-          <input type="text" id="destination" name="destination" placeholder="Enter destination" />
+          <input type="text" id="destination" name="dest" placeholder="Enter destination" />
         </div>
 
         <div className="form-group">
@@ -36,7 +36,7 @@ const Bookings = () => {
 
         <div className="form-group">
           <label htmlFor="guests">Guests</label>
-          <input type="number" id="guests" name="guests" placeholder="Number of guests" />
+          <input type="number" id="guests" name="noofpeople" placeholder="Number of guests" />
         </div>
 
         <button className="booking-button">Search</button>

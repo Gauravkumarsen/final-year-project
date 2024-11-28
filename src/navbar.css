@@ -33,7 +33,31 @@
                    0 0 40px #aeeaed;
     }
 }
-
+/* Style for the dropdown menu */
+.dropdownMenu {
+    position: absolute;
+    top: 50px;  /* Adjust depending on your layout */
+    right: 20px;  /* Adjust depending on your layout */
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 999;
+  }
+  
+  .dropdownLink {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .dropdownLink:hover {
+    background-color: #f0f0f0;
+  }
+  
 
 header{
 

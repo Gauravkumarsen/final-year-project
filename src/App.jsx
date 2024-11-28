@@ -8,7 +8,12 @@ import About from './About';
 import Contact from './Contact';
 import Bookings from './Bookings';
 import Middle from './Middle';
+import Signin from './Signin';
+import Signup from './Signup';
 import Footer from './Footer';
+import TourismDevelopmentPage from './TourismDevelopmentPage';
+import Profile from './Profile';
+
 
 function App() {
   return (
@@ -20,7 +25,10 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/bookings" element={<Bookings/>} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/signin" element={<Signin />} />
+          <Route path="/signup" element={<Signup/>} />
+          <Route path="/tourism-development" element={<TourismDevelopmentPage/>} />
+          <Route path="/profile" element={<Profile />} />
         </Routes>
         <Footer/>
       </div>

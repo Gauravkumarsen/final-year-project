@@ -248,3 +248,34 @@
         }
     }
   }
+
+
+  .ml-link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.ml-link {
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #ff6347; /* Tomato color */
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ml-link:hover {
+    background-color: #ff4500; /* Darker tomato */
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .ml-link:active {
+    transform: scale(0.95);
+  }
+  
